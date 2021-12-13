@@ -1,9 +1,10 @@
-//         4
-//    1          5
-// 3    2     7    9
+//          4
+//     1          5
+//  3    2     7    9
+//8
 
 
-function Three(value, left, right) {
+function Three2(value, left, right) {
     return {
         value,
         left,
@@ -13,6 +14,9 @@ function Three(value, left, right) {
                 state = 0,
                 cursor
             return {
+                [Symbol.iterator]() {
+                    return this
+                },
                 next: () => {
                     if (state === 0) {
                         state++
@@ -52,9 +56,50 @@ function Three(value, left, right) {
     }
 }
 
+
+function Three3(value, left, right) {
+    return {
+        value,
+        left,
+        right,
+        *[Symbol.iterator]() {
+            yield this.value
+
+            if (this.left != null) {
+                for (const el of this.left) {
+                    yield el
+                }
+            }
+            if (this.right != null) {
+                for (const el of this.right) {
+                    yield el
+                }
+            }
+        }
+    }
+}
+
+function Three(value, left, right) {
+    return {
+        value,
+        left,
+        right,
+        *[Symbol.iterator]() {
+            yield this.value
+
+            if (this.left != null) {
+                yield* this.left
+            }
+            if (this.right != null) {
+                yield* this.right
+            }
+        }
+    }
+}
+
 const t = Three(
     4,
-    Three(1, Three(3), Three(2)),
+    Three(1, Three(3, Three(8)), Three(2)),
 
     Three(5, Three(7), Three(9))
 )
