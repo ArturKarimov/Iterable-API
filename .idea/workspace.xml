@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e71800-d28f-4d4a-8e3c-ff4f921e42d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/arrayMethods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/intoIter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asyncAwait.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eventWithIterator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threeIterator.js" beforeDir="false" afterPath="$PROJECT_DIR$/threeIterator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,31 +35,32 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.arrayMethods.js">
-    <configuration name="arrayMethods.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/arrayMethods.js" working-dir="$PROJECT_DIR$">
+  <component name="RunManager" selected="Node.js.eventWithIterator.js">
+    <configuration name="asyncAwait.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/asyncAwait.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="intoIter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/intoIter.js" working-dir="$PROJECT_DIR$">
+    <configuration name="eventWithIterator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/eventWithIterator.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="objectIterator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/objectIterator.js" working-dir="$PROJECT_DIR$">
+    <configuration name="iteratorMethods.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/iteratorMethods.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="stateMachine.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/stateMachine.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="threeIterator.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/threeIterator.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="three.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/three.js" working-dir="$PROJECT_DIR$">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.arrayMethods.js" />
+        <item itemvalue="Node.js.eventWithIterator.js" />
+        <item itemvalue="Node.js.asyncAwait.js" />
+        <item itemvalue="Node.js.stateMachine.js" />
+        <item itemvalue="Node.js.iteratorMethods.js" />
         <item itemvalue="Node.js.threeIterator.js" />
-        <item itemvalue="Node.js.intoIter.js" />
-        <item itemvalue="Node.js.objectIterator.js" />
-        <item itemvalue="Node.js.three.js" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +79,7 @@
       <workItem from="1639325680022" duration="39000" />
       <workItem from="1639325733147" duration="1616000" />
       <workItem from="1639405410556" duration="5237000" />
-      <workItem from="1639480002264" duration="8605000" />
+      <workItem from="1639480002264" duration="19675000" />
     </task>
     <servers />
   </component>
